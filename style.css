@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+table {
+    font-size: 1.7rem;
+    background-color: aquamarine;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-size: 2.4rem;
+    padding: 3%;
+}
+
+table th,
+table td {
+    padding: 1% 10px;
+    background-color: white;
+}
+
+tbody th {
+    text-align: left;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 2px solid rgba(180, 180, 180, 0.719);
+}
+
+tbody tr:hover {
+    background-color: rgb(204, 204, 204);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgb(85, 85, 85);
+}
+
+thead th {
+    background-color: aquamarine;
+}
